@@ -663,8 +663,9 @@ h2.resp-accordion {
 	margin-right:5%
 }
 .about-imag img {
-	border: 2px solid #94004A;
-	border-radius: 103px;
+	border: 8px inset #94004A;
+	border-radius: 30px;
+	box-shadow: 3px 5px 3px 3px lightgray;
 }
 .about-text {
 	float: left;
