@@ -18,6 +18,14 @@ h1,h2,h3,h4,h5,h6{
 	padding:0 0;
 	margin:0 0;
 }
+
+hr {
+	color: #94004A;
+	height: 3px;
+	padding: 0 0;
+	margin: 1 0;
+}
+
 p{
 	padding:0 0;
 	margin:0 0;
@@ -31,6 +39,24 @@ body{
 	margin:0 0; 
 	font-family: 'Open Sans', sans-serif;
 }
+
+i {
+	color: white;
+	width: auto;
+	height: 20px;
+	background-color: transparent;
+	text-decoration: none;
+  }
+
+i:hover {
+	color: #94004A;
+	background-color: transparent;
+	text-decoration: none;
+  }
+
+
+
+
 .header{
 	background: url("../images/city.jpg") no-repeat center top;
 	-webkit-background-size: cover;
@@ -53,9 +79,10 @@ body{
 	text-decoration:dotted;
 }
 
-a:link {
+a {
 	color: white;
 	background-color: transparent;
+	margin: 1rem;
 	text-decoration: none;
   }
 
@@ -654,7 +681,7 @@ h2.resp-accordion {
 	color: #2a404e;
 }
 .about-header h3 span {
-	color: #94004A;;
+	color: #94004A;
 
 }
 .about-imag {
@@ -746,7 +773,7 @@ padding:30px 0;
 .social-icon i{
 	width:40px;
 	height:40px;
-	background: url("../images/img-sprite.png") no-repeat 0px 0px;
+	/* background: url("../images/img-sprite.png") no-repeat 0px 0px; */
 	display:inline-block;
 }
 .social-icon i:hover{
@@ -1490,7 +1517,7 @@ padding-bottom: 2em;
 		.social-icon i {
 			width: 30px;
 			height: 30px;
-			background: url("../images/img-sprite.png") no-repeat 0px 0px;
+			/* background: url("../images/img-sprite.png") no-repeat 0px 0px; */
 			display: inline-block;
 			background-size: 420px;
 		}
